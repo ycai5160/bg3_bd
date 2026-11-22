@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer">
 <title>BG3 加点图 · 咒剑士 / 诗弓</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Serif+SC:wght@500;700&display=swap">
 <style>
@@ -46,6 +46,20 @@ h1{font-size:34px;color:var(--gold);letter-spacing:8px;font-weight:700;text-shad
 .mi{display:inline-block;width:30px;height:30px;vertical-align:middle;margin:0 5px;border:1.5px solid var(--gold2);border-radius:3px;background:#050403;overflow:hidden}
 .mi img{width:100%;height:100%;object-fit:contain;display:block}
 
+
+body{font-size:14px;padding-top:18px}
+header{padding:14px 18px;gap:14px}header .badge{width:68px;height:68px}h1{font-size:28px;letter-spacing:6px}
+.path img{width:26px;height:26px}.path{margin-top:4px}
+.title{margin:20px 0 10px;font-size:16px}
+.stats{padding:8px 6px}.stats b{font-size:24px}
+.lv{padding:8px 12px 8px 8px;margin-bottom:8px;gap:10px}
+.num{width:56px;gap:6px}.dia{width:36px;height:36px}.dia span{font-size:17px}.num small{font-size:11px}
+.grps{gap:8px}.grp{min-width:0}.ban{font-size:12px;padding:2px 8px;letter-spacing:3px}
+.tiles{gap:6px;padding:7px 8px}.tile{width:auto;min-width:56px;padding:0 2px}.nm{white-space:nowrap}.ico{width:46px;height:46px}.nm{font-size:12px;margin-top:4px}
+.equip{padding:10px;gap:10px}.equip .ico{width:52px;height:52px}
+.key{margin-bottom:12px}.key span{padding:2px 12px;font-size:12px}
+.tab{padding:6px 12px;font-size:15px}.tab img{width:24px;height:24px}
+.tips{padding:4px 14px}.tip{padding:8px 0}.mi{width:24px;height:24px}
 .tabs{position:sticky;top:0;z-index:10;display:flex;gap:10px;justify-content:center;padding:10px 0;margin:-10px 0 14px;background:linear-gradient(#120e0a 75%,#120e0a00)}
 .tab{flex:1;max-width:260px;display:flex;align-items:center;justify-content:center;gap:10px;padding:8px 14px;cursor:pointer;color:var(--mut);font:700 17px "Noto Serif SC",serif;letter-spacing:4px;background:linear-gradient(#211a13,#17120d);border:1px solid var(--gold2);border-radius:4px;box-shadow:0 0 0 2px #0c0906}
 .tab img{width:30px;height:30px;object-fit:contain}
@@ -54,21 +68,22 @@ h1{font-size:34px;color:var(--gold);letter-spacing:8px;font-weight:700;text-shad
 .tiles{flex-wrap:wrap}
 @media (max-width:640px){
  body{padding:12px 8px 40px}
- header{padding:14px;gap:12px}header .badge{width:60px;height:60px}h1{font-size:26px;letter-spacing:5px}
+ header{padding:14px;gap:12px}header .badge{width:52px;height:52px}h1{font-size:24px;letter-spacing:5px}
  .path{font-size:13px;gap:6px}.path img{width:26px;height:26px}
  .title{margin:22px 0 10px;font-size:16px;letter-spacing:4px}
  .stats{grid-template-columns:repeat(3,1fr);padding:6px}
  .stats div{border-right:0;border-bottom:1px solid #3d311f;padding:6px 0}.stats div:nth-last-child(-n+3){border-bottom:0}
- .stats b{font-size:26px}
- .lv{flex-direction:column;gap:10px;padding:10px}
- .num{width:auto;flex-direction:row;justify-content:flex-start;gap:16px;padding-left:8px}
- .dia{width:38px;height:38px}.dia span{font-size:18px}
- .num small{font-size:13px}
- .grps{gap:8px;width:100%}
- .grp{flex:1 1 auto;min-width:0}
- .tiles{gap:6px;padding:8px 6px}
- .tile{width:72px}.ico{width:52px;height:52px}.nm{font-size:12px}
- .equip{padding:10px}.equip .ico{width:60px;height:60px}
+ .stats b{font-size:22px}
+ .lv{flex-direction:row;align-items:flex-start;gap:8px;padding:8px 8px 8px 6px}
+ .num{width:44px;flex:none;flex-direction:column;justify-content:flex-start;gap:6px;padding:4px 0 0}
+ .dia{width:30px;height:30px}.dia span{font-size:14px}
+ .num small{font-size:10px;letter-spacing:0;text-align:center;line-height:1.2}
+ .grps{gap:6px;width:auto;flex:1;min-width:0}
+ .grp{flex:0 0 auto;min-width:0}
+ .ban{font-size:11px;letter-spacing:1px;padding:2px 6px;white-space:nowrap}
+ .tiles{gap:4px;padding:6px 5px;justify-content:flex-start}
+ .tile{width:auto;min-width:48px}.ico{width:42px;height:42px}.nm{font-size:11px}
+ .equip{padding:8px}.equip .ico{width:48px;height:48px}
  .key{gap:6px}.key span{padding:3px 10px;font-size:12px;letter-spacing:1px}
  .tip{flex-direction:column;align-items:flex-start;gap:4px}.tk{width:auto}
  .tab{font-size:15px;letter-spacing:2px;padding:7px 8px}
